@@ -1,7 +1,7 @@
 The purpose of this project is to introduce myself and give a sample of my development skills.
-This is full stack project implemented in React with Typescript and .NET Core. First two tabs are about myself and my experience, but the last one (Exercise) is for demoing solution for slightly more complex problem.
+This is full stack project implemented in React with Typescript and .NET Core. Application's first two tabs are about myself and my experience, but the last one (Exercise) is for demoing solution for slightly more complex problem.
 
-If you want to check the project in the runtime, it has been deployed to Azure and [can be viewed here](http://mp-fullstack-showcase-ui.azurewebsites.net/)].
+If you want to check the project in the runtime, it has been deployed to Azure and [can be viewed here](http://mp-fullstack-showcase-ui.azurewebsites.net/).
 
 ## Back-end
 
@@ -9,7 +9,7 @@ Back-end application has been developed using .NET Core. The project uses:
 * MS SQL Database
 * Entity Framework
 * Code first migrations
-* Xunit (for tests)
+* Xunit
 * In-memory database (for integration tests)
 * Moq
 
@@ -20,7 +20,7 @@ There are unit and integration tests implemented, which can be started with VS b
 
 
 ## Front-end
-Front-end application has been developed using React. I more details the project uses:
+Front-end application has been developed using React. In more details the project uses:
 * React
 * Typescript
 * Redux
@@ -28,7 +28,7 @@ Front-end application has been developed using React. I more details the project
 * Jest
 * Puppeteer (for end-to-end tests)
 
-In order to launch it please run (assuming that some of basic prerequisites are installed on the machine like Node.js):
+In order to launch it please run (assuming that some of basic prerequisites, like Node.js are installed on the machine):
 
 ### `npm i`
 ### `npm start`
