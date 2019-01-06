@@ -1,7 +1,7 @@
 The purpose of this project is to introduce myself and give a sample of my development skills.
 This is full stack project implemented in React with Typescript and .NET Core. Application's first two tabs are about myself and my experience, but the last one (Exercise) is for demoing solution for slightly more complex problem.
 
-If you want to check the project in the runtime, it has been deployed to Azure and [can be viewed here](http://mp-fullstack-showcase-ui.azurewebsites.net/).
+If you want to check the project in the runtime, it has been deployed to Azure and [can be viewed here](http://mp-fullstack-showcase-ui.azurewebsites.net/){:target="_blank"}.
 
 ## Back-end
 
