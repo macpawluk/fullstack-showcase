@@ -69,7 +69,7 @@ export class TopMenuComponent extends React.Component<
             to={AppConstants.Routing.TreeExercise}
             data-test-id="lnk-tree-exercise"
           >
-            Tree
+            Exercise
           </Link>
 
           <div className="right menu">
