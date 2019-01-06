@@ -59,6 +59,6 @@ describe("TopMenu tests", () => {
     const activeLink = topMenu.find("Link.active");
 
     expect(activeLink.length).toEqual(1);
-    expect(activeLink.children().text()).toEqual("Tree");
+    expect(activeLink.children().text()).toEqual("Exercise");
   });
 });
