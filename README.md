@@ -36,4 +36,4 @@ In order to launch it please run (assuming that some of basic prerequisites, lik
 There are unit and end-to-end tests implemented, which can be started with the command:
 ### `npm test`
 
-Please mind that end-to-end tests require back-end on localhost running and front-end application too (`npm start` run in separate process).
+Please mind that end-to-end tests require back-end on localhost running and front-end application too (`npm start` run in a separate process).
