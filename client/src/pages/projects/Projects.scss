@@ -1,0 +1,36 @@
+.projects-root {
+  width: 100%;
+
+  &:first-child {
+    margin-top: 20px;
+  }
+
+  .header {
+    .segment {
+      padding-bottom: 0;
+
+      h3 {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .project-item {
+    margin-bottom: 20px;
+
+    .right.label {
+      margin-right: 2rem;
+
+      @media only screen and (max-width: 767px) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .tech-labels {
+    > span {
+      margin-right: 10px;
+      margin-bottom: 10px !important;
+    }
+  }
+}

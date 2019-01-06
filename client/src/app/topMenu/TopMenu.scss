@@ -1,0 +1,13 @@
+.app-menu-root {
+  margin-top: 5px !important;
+
+  .right.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+
+    @media only screen and (max-width: 767px) {
+      margin-right: 3rem;
+    }
+  }
+}

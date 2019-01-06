@@ -1,0 +1,52 @@
+.tree-view {
+  overflow-y: auto;
+  flex-grow: 1;
+  min-width: 150px;
+
+  .ui.list {
+    padding: 0px;
+  }
+
+  .person__tree-item {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+    &.mouse-over {
+      .person__icon {
+        color: rgba(0, 0, 0, 1);
+
+        transition-duration: 0.4s;
+        transition-property: transform;
+        transform: scale(1.4);
+        transform-origin: 50% 100%;
+      }
+    }
+
+    .person__icon {
+      padding-top: 4px;
+      margin-right: 10px;
+      color: rgba(0, 0, 0, 0.4);
+
+      transform: scale(1);
+    }
+  }
+
+  .dropdown__icon {
+    &.hidden {
+      opacity: 0;
+    }
+
+    transition-duration: 0.4s;
+    transition-property: transform;
+    transform: rotate(-90deg);
+    margin-right: 10px;
+  }
+
+  .Collapsible__trigger.is-open {
+    .dropdown__icon {
+      transform: rotate(0deg);
+    }
+  }
+}

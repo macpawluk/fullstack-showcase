@@ -1,0 +1,35 @@
+.slide-banner__root {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  margin-bottom: 40px;
+
+  .message {
+    .content {
+      margin-top: 10px;
+    }
+  }
+
+  transform: translate(0, 200px);
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 0.6s ease;
+
+  &.show {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 1s ease-out, opacity 0.6s ease;
+  }
+
+  .close__icon-root {
+    position: absolute;
+    padding: 10px 10px 10px 20px;
+    top: 0px;
+    right: 0px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

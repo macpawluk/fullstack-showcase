@@ -1,0 +1,30 @@
+body {
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+
+  > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-content {
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    > div {
+      display: flex;
+    }
+  }
+}
+
+.auto-fit__image {
+  background-size: cover;
+  background-position: center;
+}

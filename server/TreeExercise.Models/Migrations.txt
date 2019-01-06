@@ -1,0 +1,5 @@
+Add migration:
+Add-Migration <MigrationName>
+
+Apply migrations:
+Update-Database

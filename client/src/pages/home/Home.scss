@@ -1,0 +1,16 @@
+.home-view-root {
+  .column-card {
+    display: flex !important;
+    justify-content: flex-end;
+  }
+
+  .mobile {
+    .card {
+      margin: 14px;
+    }
+  }
+
+  .header {
+    margin-bottom: 20px !important;
+  }
+}

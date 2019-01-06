@@ -1,0 +1,65 @@
+{
+  "name": "fullstack-showcase",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-collapsible": "^2.3.2",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tslint -c tslint.json src/**/*.{ts,tsx}"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/classnames": "^2.2.6",
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/puppeteer": "^1.11.1",
+    "@types/react-collapsible": "^2.2.1",
+    "@types/react-redux": "^6.0.11",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux": "^3.6.0",
+    "@types/redux-devtools-extension": "^2.13.2",
+    "@types/redux-promise-middleware": "0.0.11",
+    "@types/redux-thunk": "^2.1.0",
+    "@types/reselect": "^2.2.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "puppeteer": "^1.11.0",
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-react": "^3.6.0"
+  }
+}

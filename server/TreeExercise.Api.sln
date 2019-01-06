@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeExercise.Api", "TreeExercise.Api\TreeExercise.Api.csproj", "{54F38375-E75C-42E9-AAC4-840D861BCB95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeExercise.Models", "TreeExercise.Models\TreeExercise.Models.csproj", "{1F904EA0-D971-44C0-B460-8266DD5E63F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeExercise.Infrastructure", "TreeExercise.Infrastructure\TreeExercise.Infrastructure.csproj", "{07804382-0D98-4B4F-8822-5C676F1F63E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeExercise.Services", "TreeExercise.Services\TreeExercise.Services.csproj", "{BE64123E-9508-4C18-A65C-9953E842EF84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AC48BB4E-F77D-43A1-A9C2-2BB1E2802DFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeExercise.IntegrationTests", "Tests\TreeExercise.IntegrationTests\TreeExercise.IntegrationTests.csproj", "{875BDBE5-EBC4-446A-96B1-7216E7B3733F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeExercise.UnitTests", "Tests\TreeExercise.UnitTests\TreeExercise.UnitTests.csproj", "{3B001BEE-86AC-4AC4-85E0-640000CB0F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F38375-E75C-42E9-AAC4-840D861BCB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F38375-E75C-42E9-AAC4-840D861BCB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F38375-E75C-42E9-AAC4-840D861BCB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F38375-E75C-42E9-AAC4-840D861BCB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F904EA0-D971-44C0-B460-8266DD5E63F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F904EA0-D971-44C0-B460-8266DD5E63F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F904EA0-D971-44C0-B460-8266DD5E63F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F904EA0-D971-44C0-B460-8266DD5E63F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07804382-0D98-4B4F-8822-5C676F1F63E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07804382-0D98-4B4F-8822-5C676F1F63E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07804382-0D98-4B4F-8822-5C676F1F63E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07804382-0D98-4B4F-8822-5C676F1F63E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE64123E-9508-4C18-A65C-9953E842EF84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE64123E-9508-4C18-A65C-9953E842EF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE64123E-9508-4C18-A65C-9953E842EF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE64123E-9508-4C18-A65C-9953E842EF84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{875BDBE5-EBC4-446A-96B1-7216E7B3733F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875BDBE5-EBC4-446A-96B1-7216E7B3733F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875BDBE5-EBC4-446A-96B1-7216E7B3733F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875BDBE5-EBC4-446A-96B1-7216E7B3733F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B001BEE-86AC-4AC4-85E0-640000CB0F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B001BEE-86AC-4AC4-85E0-640000CB0F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B001BEE-86AC-4AC4-85E0-640000CB0F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B001BEE-86AC-4AC4-85E0-640000CB0F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{875BDBE5-EBC4-446A-96B1-7216E7B3733F} = {AC48BB4E-F77D-43A1-A9C2-2BB1E2802DFE}
+		{3B001BEE-86AC-4AC4-85E0-640000CB0F9A} = {AC48BB4E-F77D-43A1-A9C2-2BB1E2802DFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D00BA5F7-FC8B-4AA0-8C26-9F2EC05B6464}
+	EndGlobalSection
+EndGlobal

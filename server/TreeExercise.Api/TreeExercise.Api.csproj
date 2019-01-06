@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>a1d2a32f-02ee-485c-9f99-fe7ca5d66a7a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TreeExercise.Infrastructure\TreeExercise.Infrastructure.csproj" />
+    <ProjectReference Include="..\TreeExercise.Models\TreeExercise.Models.csproj" />
+    <ProjectReference Include="..\TreeExercise.Services\TreeExercise.Services.csproj" />
+  </ItemGroup>
+
+</Project>

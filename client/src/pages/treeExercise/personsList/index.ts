@@ -1,0 +1,1 @@
+export { PersonsListView } from "./PersonsListContainer";

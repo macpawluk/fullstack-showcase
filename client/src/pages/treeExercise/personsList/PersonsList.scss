@@ -1,0 +1,13 @@
+.ui.list.persons__list {
+  width: 300px;
+  overflow-y: auto;
+  margin-right: 40px;
+
+  .item {
+    padding: 10px 10px 10px 20px;
+  }
+
+  .item.active {
+    background-color: #dcdcdc;
+  }
+}

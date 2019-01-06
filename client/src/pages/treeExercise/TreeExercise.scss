@@ -1,0 +1,49 @@
+.tree-exercise-view-root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .exercise-settings {
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    .range__input {
+      width: 120px;
+      text-align: right;
+    }
+
+    .range-type__dropdown {
+      width: 140px;
+    }
+
+    .range__group {
+      margin-right: 20px;
+    }
+  }
+
+  .exercise-data {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100%;
+  }
+}
+
+.ui.modal.info__modal {
+  > .content {
+    height: calc(70vh);
+    padding: 20px;
+
+    .description {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .contacts-diagram__image {
+        height: 100%;
+        min-height: 300px;
+        margin: 20px;
+      }
+    }
+  }
+}
