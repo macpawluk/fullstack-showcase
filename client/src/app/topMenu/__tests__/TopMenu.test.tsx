@@ -6,7 +6,7 @@ import * as ReactDOM from "react-dom";
 import { StaticRouter } from "react-router";
 import { RouteComponentProps } from "react-router-dom";
 
-import { TopMenu, TopMenuComponent } from "./TopMenuComponent";
+import { TopMenu, TopMenuComponent } from "./../TopMenuComponent";
 
 enzyme.configure({ adapter: new ReactSixteenAdapter() });
 

@@ -7,8 +7,8 @@ import {
   ITreeExerciseSettingsContainerProps,
   ITreeExerciseSettingsState,
   TreeExerciseSettingsContainer
-} from "./TreeExerciseSettingsContainer";
-import { SearchRangeType } from "./TreeExerciseSettingsTypes";
+} from "./../TreeExerciseSettingsContainer";
+import { SearchRangeType } from "./../TreeExerciseSettingsTypes";
 
 enzyme.configure({ adapter: new ReactSixteenAdapter() });
 

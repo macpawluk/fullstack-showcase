@@ -1,5 +1,7 @@
 import puppeteer from "puppeteer";
 
+export const e2eTestTimeout = 16000;
+
 export const getElementText = async (
   page: puppeteer.Page,
   selector: string

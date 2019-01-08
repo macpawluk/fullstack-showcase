@@ -3,7 +3,7 @@ import { shallow } from "enzyme";
 import ReactSixteenAdapter from "enzyme-adapter-react-16";
 import * as React from "react";
 
-import { App } from "./App";
+import { App } from "./../App";
 
 enzyme.configure({ adapter: new ReactSixteenAdapter() });
 
