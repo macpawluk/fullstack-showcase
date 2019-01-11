@@ -32,7 +32,7 @@ class PersonsListContainer extends React.PureComponent<
   IPersonsListContainerProps,
   {}
 > {
-  public componentWillMount(): void {
+  public componentDidMount(): void {
     const { fetchPersons } = this.props;
 
     fetchPersons();

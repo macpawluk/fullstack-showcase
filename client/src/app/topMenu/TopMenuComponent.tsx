@@ -27,7 +27,7 @@ export class TopMenuComponent extends React.Component<
     this.state = this.getInitialState();
   }
 
-  public componentWillMount(): void {
+  public componentDidMount(): void {
     this.setNavigationState(this.props);
   }
 

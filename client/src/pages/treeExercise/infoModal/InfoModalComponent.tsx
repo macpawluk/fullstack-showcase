@@ -21,7 +21,7 @@ export class InfoModalComponent extends React.PureComponent<
     this.state = this.getInitialState();
   }
 
-  public componentWillMount(): void {
+  public componentDidMount(): void {
     if (shouldShowExerciseInfo()) {
       this.setState({ showModal: true });
       saveShowExerciseInfoTime();
